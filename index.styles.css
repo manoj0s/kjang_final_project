@@ -1,0 +1,55 @@
+/* MANOJ SIWAKOTI */
+
+ body
+{
+   background-color: rgb(199, 94, 94);
+} 
+.column 
+{
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 60px; 
+}
+
+.column1{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container
+{
+    background-color: rgb(233, 227, 227);
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.lists{
+  margin-left: 10%;
+    margin-right: 10%;
+}
+
+p
+{
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+footer
+{
+  background-color: rgb(116, 130, 148);
+  margin-top: 700px;
+  text-align: center;
+  font-size: larger;
+}
